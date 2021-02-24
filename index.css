@@ -1,0 +1,173 @@
+body {
+  background-color: black;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+ 
+#name {
+  line-height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pagewidth {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.logo :hover{
+  height: 110px;
+  width: 110px;
+}
+
+#header {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 18%, rgba(21,23,24,0.6909138655462185) 32%, rgba(21,23,24,0.9262079831932774) 47%, rgba(21,23,24,1) 60%);
+}
+
+.headerItem {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.menuItem {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.headerTitle {
+  margin-top: 15px;
+  margin-right: 10px;
+  font-weight: 200;
+}
+
+.SJS {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 100;
+font-size: 25px;
+color: #7E8B90;
+}
+
+.menuText{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: lighter;
+font-size: 20px;
+color: #7E8B90;
+}
+
+.menuItem :hover {
+  color: #7e8b90a1;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+#headercontent {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+}
+
+
+p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 18%, rgba(21,23,24,0.6909138655462185) 32%, rgba(21,23,24,0.9262079831932774) 47%, rgba(21,23,24,1) 60%);
+  width: 100%;
+  height: 100px;
+  float: bottom;
+}
+
+.serviceblock {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.blockone {
+  width: 100%;
+  height: 50%;
+  background-color: green;
+}
+
+
+
+.blockimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutPortion {
+  width: 50%;
+  margin: 5px;
+}
+
+.aboutPortion2 {
+  width: 50%;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.aboutPortionLil {
+  width: 33%;
+  margin: 5px;
+}
+
+
+.aboutPortionimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
