@@ -187,7 +187,12 @@ h3 {
 #banner {
 width: 100%;
 height: 300px;
-background-color: red;
+}
+
+#banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .homeSectionRight {
@@ -212,4 +217,32 @@ background-color: red;
   width: 70%;
   margin: 0 auto;
   padding: 5%;
+}
+
+.serviceGrid {
+  width: 100%;
+  display: inline-block;
+}
+
+.gridBit {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  background-color: white;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+.navlogo {
+  width: 50px;
+  height: 50px;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
